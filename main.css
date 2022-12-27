@@ -10,13 +10,26 @@ header {
     padding: 1rem;
 }
 
-header h1 {
-    font-size: 15px;
+header h1,
+nav ol {
+    font-weight: bold;
     color: #502314;
 }
 
+header h1 {
+    font-size: 15px;
+}
+
 nav {
-    display: none;
+    padding: 16px 0;
+}
+
+nav ol {
+    list-style: none;
+}
+nav li {
+    margin-top: 1rem;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -28,7 +41,7 @@ nav {
 
 .container-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
