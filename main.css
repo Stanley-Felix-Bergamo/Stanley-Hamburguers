@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #F5EBDC;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 15px;
+    color: #502314;
+}
+
+nav {
+    display: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    padding-right: 5px;
+    height: 24px;
+}
+
+.menu-hamburguer {
+    width: 23px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 3px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #502314;
+    width: 100%;
+    display: block;
+}
