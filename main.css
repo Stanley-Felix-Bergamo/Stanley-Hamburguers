@@ -22,12 +22,14 @@ header h1 {
 
 nav {
     padding: 16px 0;
-      display: none;
+    height: 100vh;
+    display: none;
 }
 
 nav ol {
     list-style: none;
 }
+
 nav li {
     margin-top: 1rem;
     margin-bottom: 15px;

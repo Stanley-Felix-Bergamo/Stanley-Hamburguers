@@ -8,8 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./main.css">
     <link rel="icon" href="./img/icon.png">
+    <!--Documentação do Slick https://kenwheeler.github.io/slick/ -->
     <title>Stanley Hambúrguers </title>
 </head>
 
@@ -17,7 +20,6 @@
 
 
     <header>
-
         <div class="container container-flex">
             <div class="container-flex">
                 <img src="./img/icon.png" alt="Icone de um lanche">
@@ -44,8 +46,26 @@
             </nav>
         </div>
     </header>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <script src="./main.js"></script>
+
+    <div id="carrosel">
+        <img src="./img/lanches/burger-g9f6dafc32_640.jpg" alt="Imagem de um lanche ">
+        <img src="./img/lanches/burger-gd9d5a72e7_640.jpg" alt="Imagem de um lanche">
+        <img src="./img/lanches/hamburger-g444fdcd35_640.jpg" alt="Imagem de um lanche">
+    </div>
+
+    <main>
+        <div class="container">
+            <h2>Conteudo</h2>
+
+        </div>
+    </main>
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 
 </html>
