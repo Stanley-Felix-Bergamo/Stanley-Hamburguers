@@ -139,6 +139,10 @@ footer {
     text-transform: uppercase;
 }
 
+footer p {
+    font-size: 10px;
+}
+
 @media screen and (min-width:641px) {
 
     header h1 {
@@ -160,6 +164,10 @@ footer {
 
     nav li {
         font-size: 25px;
+    }
+
+    footer p {
+        font-size: 15px;
     }
 }
 
