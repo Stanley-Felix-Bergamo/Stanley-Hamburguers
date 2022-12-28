@@ -2,12 +2,12 @@
 
 <p>Página de uma lanchonete - Mobile first</p>
 
-<!--
-<p>Saiba mais acessando o site <a href="">Clicando aki</a></p> 
+
+<p>Saiba mais acessando o site <a href="https://stanley-felix-bergamo.github.io/Stanley-Hamburguers/">Clicando aki</a></p> 
 <div align="center" >
-<img src="" alt="imagem">
+<img src="https://raw.githubusercontent.com/Stanley-Felix-Bergamo/Stanley-Hamburguers/1c6aa64444589c8e7854adc87260bfa2300f7b1b/img/mac.png" alt="imagem">
 </div>
--->
+
 <h2>💻 Tecnologias utilizadas</h2>
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
