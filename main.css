@@ -16,13 +16,14 @@ footer {
 }
 
 header h1,
-nav ol {
+nav li a {
     font-weight: bold;
     color: #502314;
 }
 
 header h1 {
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -38,6 +39,15 @@ nav ol {
 nav li {
     margin-top: 1rem;
     margin-bottom: 15px;
+    cursor: pointer;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -56,6 +66,7 @@ nav li {
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
+
 
 .container-flex {
     display: flex;
@@ -105,10 +116,51 @@ article img {
     color: #502314;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.conteudo button:hover {
+    background-color: #f1dec0;
+}
+
+.conteudo button:active {
+    background-color: #502314;
+    color: #F5EBDC;
 }
 
 section {
     margin-bottom: 1rem;
+}
+
+footer {
+    color: #502314;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:641px) {
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header img {
+        padding-right: 5px;
+        height: 40px;
+    }
+
+    .menu-hamburguer span {
+        height: 7px;
+    }
+
+    .menu-hamburguer {
+        width: 40px;
+    }
+
+    nav li {
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width:641px) and (max-width:1023px) {
@@ -120,6 +172,12 @@ section {
         display: grid;
         grid-template-columns: repeat(2, 50%);
     }
+
+    #carrosel img {
+        height: 30vh;
+    }
+
+
 }
 
 @media screen and (min-width:1024px) {
@@ -132,4 +190,7 @@ section {
         grid-template-columns: repeat(2, 50%);
     }
 
+    #carrosel img {
+        height: 60vh;
+    }
 }
